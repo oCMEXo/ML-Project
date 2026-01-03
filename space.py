@@ -163,5 +163,5 @@ Added features:
 - Explainability with SHAP (global + local)
 """
 
-Path("reports/phase1_report.md").write_text(report, encoding="utf-8")
-print("Ready. Put data/raw_exoplanets.csv and run: python phase1.py")
+Path("reports/space_report.md").write_text(report, encoding="utf-8")
+print("Ready. Put data/raw_exoplanets.csv and run: python space.py")

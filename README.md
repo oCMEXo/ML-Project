@@ -42,13 +42,13 @@ Key groups of variables:
 
 ```
 ML-Project/
-├── phase1.py
+├── space.py
 ├── README.md
 ├── data/
 │   ├── raw_exoplanets.csv
 │   └── clean_exoplanets.csv
 └── reports/
-	├── phase1_report.md
+	├── space_report.md
 	└── figures/
 		├── target_pl_rade_hist.png
 		├── target_log1p_pl_rade_hist.png
@@ -60,7 +60,7 @@ ML-Project/
 
 ## 🔬 Phase 1 — EDA & Preprocessing (Completed)
 
-> Phase 1 contains a reproducible EDA, preprocessing and feature engineering pipeline with an accompanying report (`reports/phase1_report.md`). Highlights:
+> Phase 1 contains a reproducible EDA, preprocessing and feature engineering pipeline with an accompanying report (`reports/space_report.md`). Highlights:
 
 ### 1.1 Target Analysis & Problem Definition
 
@@ -95,7 +95,7 @@ ML-Project/
 
 ### 1.7 EDA Report
 
-- Auto-generated report saved at `reports/phase1_report.md`
+- Auto-generated report saved at `reports/space_report.md`
 
 ---
 
@@ -121,14 +121,14 @@ Save the CSV as:
 data/raw_exoplanets.csv
 ```
 
-> ⚠️ Important: Do not remove lines starting with `#` in the downloaded file — the ingestion script (`phase1.py`) handles them automatically.
+> ⚠️ Important: Do not remove lines starting with `#` in the downloaded file — the ingestion script (`space.py`) handles them automatically.
 
 ### 3️⃣ Run Phase 1
 
 From the project root directory run:
 
 ```bash
-python phase1.py
+python space.py
 ```
 
 ### 4️⃣ Output
@@ -136,7 +136,7 @@ python phase1.py
 After successful execution the following artifacts will be produced:
 
 - Clean dataset: `data/clean_exoplanets.csv`
-- EDA report: `reports/phase1_report.md`
+- EDA report: `reports/space_report.md`
 - Figures: `reports/figures/*.png`
 
 ---
